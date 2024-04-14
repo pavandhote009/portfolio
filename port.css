@@ -1,0 +1,132 @@
+body{
+    background-image: url(https://img.freepik.com/premium-photo/water-drops-leaf-generative-ai_847296-57.jpg?size=626&ext=jpg&ga=GA1.1.82840295.1710954122&semt=ais);
+    background-size: cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: large;
+
+}
+#name{
+    height: 50px;
+    width: 100px;
+    font-size: 40px;
+    font-weight: 900;
+    position: relative;
+    left: 50px;
+    text-shadow: 2px 2px 10px 2px red ;
+
+    color: red;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header_box{
+    width: 700px;
+    position: absolute;
+    left: 53%;
+    top:10px;
+    display: flex;
+
+    justify-content: space-around;
+    flex-direction: row;}
+#welcome{
+    position:absolute;
+    left: 50px;
+    top: 250px;
+    font-size: 25px;
+    font-weight: 800;
+
+    
+}
+#dev{
+    position:absolute;
+    left: 50px;
+    top: 300px;
+    font-size: 40px;
+    font-weight: 900;
+    border-right: 2px solid white;
+padding-right: 20px;
+font-family: 'Inter', sans-serif;
+    
+}
+#discription{
+    position:absolute;
+    left: 50px;
+    top: 370px;
+    font-size: 1.2rem;
+
+    
+}
+.social-image{
+    height: 40px;
+    width: 40px;
+    background-image: url(twitter-512.png);
+    background-size: cover;
+    position: absolute;
+    bottom: 230px;
+    left: 50px;
+    border: 4px solid white;
+    border-radius: 10px;
+}
+.social-image:hover{
+    height: 60px;
+    width: 60px;
+    transition: all 1s;
+    background-color: rgb(81, 187, 244);
+    
+}
+.insta{
+    height: 40px;   
+    width: 40px;
+    background-image: url(instagram-5-512.png);
+    background-size: cover;
+    position: absolute;
+    bottom: 230px;
+    left: 120px;
+    border: 4px solid white;
+    border-radius: 10px;
+}
+.insta:hover{
+    height: 60px;
+    width: 60px;
+    transition: all 1s;
+    background-color: rgb(250, 48, 166);
+}
+.x{
+    height: 40px;
+    width: 40px;
+    background-image: url(facebook-512.png);
+    background-size: cover;
+    position: absolute;
+    bottom: 230px;
+    left: 190px;
+    border: 4px solid white;
+    border-radius: 10px;
+}
+.x:hover{
+    height: 60px;
+    width: 60px;
+    transition: all 1s;
+    background-color: rgb(30, 110, 222);
+}
+.wt{
+    height: 40px;
+    width: 40px;
+    background-image: url(whatsapp-512.png);
+    background-size: cover;
+    position: absolute;
+    bottom: 230px;
+    left: 260px;
+    border: 4px solid white;
+    border-radius: 10px;
+
+}
+.wt:hover{
+    height: 60px;
+    width: 60px;
+    transition: all 1s;
+    background-color: rgb(10, 251, 10);
+}
